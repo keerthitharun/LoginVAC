@@ -1,24 +1,4 @@
-function myfunc()
-{
-    let a=parseInt(document.getElementById('in1').value)
-    let b=parseInt(document.getElementById('in2').value)
-    let c=document.getElementById('out')
-    //c.innerHTML=a+b
-    c.value=a+b
-}
-    
-//     let button = document.getElementById("button")
-//     button.addEventListener(click,()=> {
-//         let a=parseInt(document.getElementById('in1').value)
-//         let b=parseInt(document.getElementById('in2').value)
 
-//         let c=document.getElementById('out')
-//         c.value=a+b
-//     });
-
-// }
-
-// 
 function getRandomPaleColour() {
     // Generate random RGB values for a pale color
     const r = Math.floor(Math.random() * 100) + 120;
